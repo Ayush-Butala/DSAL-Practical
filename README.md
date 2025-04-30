@@ -10,6 +10,5 @@ This repository contains the solutions for the **SPPU 2019 Data Structure and Al
 2. Navigate to the folder where the code is located:
    ```bash
    cd DSAL-Practical
-3.Open the relevant C++ or Python file(s) in your favorite IDE or text editor.
-
+3.Open the relevant C++ or Python file(s) in your favorite IDE or text editor.  
 4.Run the code as per the instructions in your lab manual or modify it to suit your needs.
