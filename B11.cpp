@@ -82,7 +82,8 @@ public:
         cout << "Enter keyword: ";
         cin >> key;
         cout << "Enter meaning: ";
-        cin >> meaning;
+        cin.ignore();
+        getline(cin, meaning);
         root = insert(root, key, meaning);
     }
 
