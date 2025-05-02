@@ -41,15 +41,22 @@ class Dictionary
             cmp++;
             if (key == node->key)
                 return node;
-            node = (key < node->key) ? node->left : node->right;
+
+            if (key < node->key)
+                node = node->left;
+            else
+                node = node->right;
         }
         return nullptr;
     }
 
     Node *findMin(Node *node)
     {
-        while (node && node->left)
-            node = node->left;
+        if (node)
+        {
+            while (node->left)
+                node = node->left;
+        }
         return node;
     }
 
